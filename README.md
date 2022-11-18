@@ -19,24 +19,26 @@
 ## 🎮 Sobre
 
 Essa aplicação permite a criação de bolões para a Copa do Mundo 2022. Os bolões podem ser compartilhados para que outras pessoas possam acessar e deixar seus palpites.
-Para a criação do bolão só é necessário um título (na versão web), que gera um código que pode ser utilizado por usuários logados para participar deste bolão (versão mobile).
-
-- login social com Google na versão mobile
+Para a criação do bolão só é necessário um título (na versão web e mobile), que gera um código que pode ser utilizado por usuários logados para participar deste bolão (versão mobile).
 
 Visualização na versão web:
 ![Layout web](./screenshots/versao-web.png)
 
-Criação de anúncios na versão web:
-![Criação de anúncios na web](./screenshots/creating-ad.gif)
+Visualização de funcionalidades na versão mobile:
 
-Esse projeto foi proposto pela [Rocketseat](https://www.rocketseat.com.br/) durante a NLW eSports - Trilha Ignite. Nesse evento de uma semana, o objetivo era desenvolver e aprender juntos, com muita prática, as versões web e mobile (junto com o back end) dessa aplicação utilizando o React e o React Native.
+<div align="center">
+<video src="./screenshots/versao-mobile.mp4" muted=true width="200px"></video>
+</div>
+
+Esse projeto foi proposto pela [Rocketseat](https://www.rocketseat.com.br/) durante a NLW Copa - Trilha Ignite. Nesse evento de uma semana, o objetivo era desenvolver e aprender juntos, com muita prática, as versões web e mobile (junto com o back end) dessa aplicação utilizando o React e o React Native.
 
 ## ✨ Features
 
-- [x] Visualização de anúncios dos jogos (versões web e mobile)
-- [x] Cadastro de anúncios dos jogos
-- [ ] Login Social com Discord
-- [ ] Autenticação dos dados na criação dos anúncios
+- [x] Criação de bolões (versões web e mobile)
+- [x] Compartilhamento de código criado
+- [x] Login Social com Google (versão mobile)
+- [x] Autenticação dos dados na criação dos bolões e palpites
+- [ ] Login Social com Google (versão web)
 
 ## ℹ Instalação
 
@@ -60,10 +62,10 @@ e o aplicativo Expo Go no seu aparelho celular, basta buscar nas lojas pelo apli
 
 ```bash
 # Clone este repositório
-$ git clone <https://github.com/derekcsantos/find-your-duo-nlw-esports>
+$ git clone https://github.com/derekcsantos/nlw-copa-web
 
 # Acesse a pasta do projeto no terminal/cmd
-$ cd find-your-duo-nlw-esports
+$ cd nlw-copa-web
 
 # Vá para a pasta server
 $ cd server
@@ -81,16 +83,16 @@ $ npm run dev
 
 ```bash
 # Clone este repositório
-$ git clone https://github.com/derekcsantos/find-your-duo-nlw-esports
+$ git clone https://github.com/derekcsantos/nlw-copa-web
 # Acesse a pasta do projeto no seu terminal/cmd
-$ cd find-your-duo-nlw-esports
+$ cd nlw-copa-web
 # Vá para a pasta da aplicação web
 $ cd web
 # Instale as dependências
 $ npm install
 # Execute a aplicação em modo de desenvolvimento
 $ npm run dev
-# A aplicação será aberta na porta:5173 - acesse http://localhost:5173
+# A aplicação será aberta na porta:5173 - acesse http://localhost:3000
 ```
 
 ### 📱 Rodando a aplicação mobile (Front End)
@@ -116,18 +118,15 @@ As seguintes ferramentas foram usadas na construção do projeto:
 - [VSCode](https://code.visualstudio.com/)
 - [Expo](https://expo.io/)
 - [Node.js](https://nodejs.org/en/)
+- [Next](https://nextjs.org/)
 - [React](https://pt-br.reactjs.org/)
 - [React Native](https://reactnative.dev/)
 - [TypeScript](https://www.typescriptlang.org/)
-- [Vite](https://vitejs.dev/)
 - [Prisma](https://www.prisma.io/)
 - [TailwindCSS](https://tailwindcss.com/)
-- [Radix](https://www.radix-ui.com/)
 - [Phosphor Icons](https://phosphoricons.com/)
-- [CSS Gradient](https://cssgradient.io/)
 - [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
 - [ESlint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
-- [R Component](https://marketplace.visualstudio.com/items?itemName=rodrigorgtic.rcomponent)
 - [PostCSS](https://marketplace.visualstudio.com/items?itemName=csstools.postcss)
 
 ## 👨🏾‍💻 Autor
