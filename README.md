@@ -24,10 +24,12 @@ Para a criação do bolão só é necessário um título (na versão web e mobil
 Visualização na versão web:
 ![Layout web](./screenshots/versao-web.png)
 
-Visualização de funcionalidades na versão mobile:
+Visualização na versão mobile:
 
 <div align="center">
-<video src="./screenshots/versao-mobile.mp4" muted=true width="200px"></video>
+<img src="./screenshots/mobile1.png" width="200px">
+<img src="./screenshots/mobile2.png" width="200px">
+<img src="./screenshots/mobile3.png" width="200px">
 </div>
 
 Esse projeto foi proposto pela [Rocketseat](https://www.rocketseat.com.br/) durante a NLW Copa - Trilha Ignite. Nesse evento de uma semana, o objetivo era desenvolver e aprender juntos, com muita prática, as versões web e mobile (junto com o back end) dessa aplicação utilizando o React e o React Native.
